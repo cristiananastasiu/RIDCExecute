@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idcservicecall service="CHECKIN_UNIVERSAL" user="sysadmin" response="move">
+   <property name="dDocAuthor">weblogic</property>
+   <property name="dDocTitle">Test Checkin 2</property>
+   <property name="dDocType">INTERNE</property>
+   <property name="dSecurityGroup">Public</property>
+   <property name="dDocAccount"></property>
+   <property name="xMnraDocModele">testje1</property>
+   <property name="xMnraDocNature">BUREAUTIQUE</property>
+   <property name="doFileCopy">1</property>
+   <file name="primaryFile">Booking confirmation.pdf</file>
+</idcservicecall>

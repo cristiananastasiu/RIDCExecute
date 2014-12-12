@@ -1,0 +1,37 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="idcservicecall">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="property" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="name" use="required"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="file" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="name" use="required"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="service" use="required"/>
+      <xs:attribute type="xs:string" name="user" use="required"/>
+      <xs:attribute type="responseType" name="response"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="responseType">
+	<xs:restriction base="xs:normalizedString">
+	    <xs:enumeration value="move"/>
+	    <xs:enumeration value="store"/>
+	    <xs:enumeration value="delete"/>
+	    <xs:enumeration value="none"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

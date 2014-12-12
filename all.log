@@ -1,0 +1,10 @@
+2014-07-29 12:59:02.257 [main] INFO  RIDCExecute - Started. Waiting for input
+2014-07-29 12:59:20.271 [pool-3-thread-1] INFO  DirectoryScanner - C:\RIDCExecute\.\work\in\CheckIn.xml added to queue
+2014-07-29 12:59:22.282 [pool-3-thread-2] INFO  FileUtil - Moved .\work\in\CheckIn.xml to C:\RIDCExecute\.\work\out\CheckIn.xml~2. 
+2014-07-29 12:59:22.287 [pool-3-thread-2] INFO  FileUtil - Moved .\work\in\Booking confirmation.pdf to C:\RIDCExecute\.\work\out\Booking confirmation.pdf~2. 
+2014-07-29 12:59:22.291 [pool-3-thread-2] INFO  ResponseProcessor - C:\RIDCExecute\.\work\in\CheckIn.xml finished and removed from queue. 0 items in queue.
+2014-07-29 13:00:32.837 [main] INFO  RIDCExecute - Finishing current executions
+2014-07-29 13:00:32.840 [main] INFO  RIDCExecute - Stopped
+2014-07-29 13:01:24.770 [main] INFO  RIDCExecute - Started. Waiting for input
+2014-07-29 13:02:20.040 [main] INFO  RIDCExecute - Finishing current executions
+2014-07-29 13:02:20.049 [main] INFO  RIDCExecute - Stopped
